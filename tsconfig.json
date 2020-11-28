@@ -17,11 +17,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "baseUrl": "src",
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src", "src/setupTests.js"
+    "src",
+    "src/setupTests.js"
   ],
-  "skipLibCheck" : true
+  "skipLibCheck": true
 }
